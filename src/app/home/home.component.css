@@ -1,0 +1,16 @@
+.bg1{
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url("src\assets\imgs\1280.png");
+    background-size: cover;
+
+}
+
+.enlace{
+    color: blueviolet;
+}
+
+.fondo-negro{
+    color:#000000;
+}
