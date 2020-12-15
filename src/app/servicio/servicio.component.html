@@ -28,7 +28,7 @@
 
 <div class="container my-5 d-flex flex-column flex-lg-row">
 
-    <div class="d-flex align-items-center   justify-content-center    col p-2">
+    <div class="d-flex align-items-center   justify-content-center  mt-5  col p-2">
         <i class="display-4 fas fa-address-card"></i>
         <!-- <i class="display-4 fas fa-list-alt"></i> -->
         <!-- <i class="display-4 fas fa-file"></i> -->
@@ -51,7 +51,7 @@
 
 <div class="container my-5 d-flex flex-column flex-lg-row">
 
-    <div class="d-flex align-items-center   justify-content-center    col p-2">
+    <div class="d-flex align-items-center   justify-content-center    col p-2  mt-5">
        
         <i class="display-4 fas fa-file"></i>
        
@@ -73,7 +73,7 @@
 
 <div class="container my-5 d-flex flex-column flex-lg-row">
 
-    <div class="d-flex align-items-center   justify-content-center    col p-2">
+    <div class="d-flex align-items-center   justify-content-center    col p-2  mt-5">
        
         <i class="display-4 fas fa-comments"></i>
        
@@ -121,9 +121,13 @@ Schoenfeld, Ogborn, Phillips, Krieger, Vigotsky, Contreras, Mavros, Helms, Loenn
   <br>
   </div>
 
+  
+
 <div class="container">
 
-<div class="mx-auto card text-center"  style="width: 22rem;"> <!-- style="width: 25rem;" -->
+ <!-- Ng if para grande -->
+    <div class="mx-auto card text-center" *ngIf="grande" style="width: 25rem;">
+
   <div class="card-header fondo-negro text-white">
     <h5 class="card-title titulo m-4"> Programa de entrenamiento  </h5>
   </div>
@@ -144,7 +148,32 @@ Schoenfeld, Ogborn, Phillips, Krieger, Vigotsky, Contreras, Mavros, Helms, Loenn
   </div> -->
 </div>
 
+ <!-- Ng if para pequeño -->
+
+ <div class="mx-auto card text-center" *ngIf="!grande" style="width: 21rem;">
+
+  <div class="card-header fondo-negro text-white">
+    <h5 class="card-title titulo m-4"> Programa de entrenamiento  </h5>
+  </div>
+  <div class="card-body">
+    <!-- <h5 class="card-title">Programa de entrenamiento</h5> -->
+    <span class="display-3">79</span>€
+    <hr>
+    <p class="card-text text-left h5 m-4">
+      &nbsp;<i class="fas fa-address-card"></i>&nbsp; &nbsp; Valoración <br><br>
+      &nbsp;<i class="fas fas fa-file"></i>&nbsp; &nbsp; &nbsp; Diseño del programa <br><br>
+      &nbsp;<i class="fas fa-comments"></i>&nbsp; &nbsp; Respuesta a posibles dudas
+    </p>
+    <hr>
+    <a href="#" class="btn btn-danger m-2">PLAZAS COMPLETAS</a>
+  </div>
+  <!-- <div class="card-footer text-muted">
+    2 days ago
+  </div> -->
 </div>
+
+ </div> <!--cierro el container -->
+
 <!-- Preguntas y respuestas -->
 <div class="container my-5 h5 d-none">
 

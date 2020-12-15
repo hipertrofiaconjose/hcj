@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { HostListener } from "@angular/core"; // Para las dimensiones
+
 @Component({
   selector: 'app-servicio',
   templateUrl: './servicio.component.html',
@@ -25,6 +27,31 @@ export class ServicioComponent implements OnInit {
         }
       });
     }
+    this.ajustarancho();
+  }
+
+  altura: number;
+  ancho: number;
+  grande: boolean;
+  showMini: boolean = false;
+
+  @HostListener('window:resize', ['$event'])
+  ajustarancho(){
+
+    
+this.grande = false;
+
+    this.altura = window.innerHeight;
+    this.ancho = window.innerWidth;
+
+    console.log('altura: ' + this.altura + ', y anchura: ' + this.ancho)
+     if(this.ancho > 500){
+       this.grande = true;
+     }else{
+       this.grande = false;
+     }
+     console.log(this.grande)
+
   }
 
 }
