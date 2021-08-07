@@ -1,0 +1,230 @@
+
+<div class="d-none d-sm-block container display-4 titulosobreblanco text-center my-5 ">
+  <div class="my-3">
+    <br>
+    </div>
+    Programas de entrenamiento.
+    <div class="my-3">
+      <br>
+      </div>
+</div>
+
+<div class="d-block d-sm-none container h1 titulosobreblanco text-center my-5 ">
+  <div class="my-3">
+    <br>
+    </div>
+  Programas de entrenamiento.
+  <div class="my-3">
+    <br>
+    </div>
+</div>
+
+<div class="titulo py-5 fondo-negro h2">
+    <div class="text-center text-white">
+        PASOS
+    </div>
+</div>
+
+
+<div class="container my-5 d-flex flex-column flex-lg-row">
+
+    <div class="d-flex align-items-center   justify-content-center  mt-5  col p-2">
+        <i class="display-4 fas fa-address-card"></i>
+        <!-- <i class="display-4 fas fa-list-alt"></i> -->
+        <!-- <i class="display-4 fas fa-file"></i> -->
+        <!-- <i class="display-4 fas fa-comments"></i> -->
+        <!-- <i class="display-4 fas fa-question-circle"></i> -->
+        <!-- <i class="display-4 fas fa-question"></i> -->
+      </div>
+  
+
+      <div class="col-lg-8 p-2 h5 espaciolineas mt-5">
+        <span class="font-weight-bold titulosobreblanco h2 my-2"> Valoración</span> 
+        <br><br>
+        Dependiendo de tu perfil (estado de salud, desentrenado o entrenado, años de entrenamiento, dolores, lesiones, prioridades, preferencias, etc.) y tu objetivo, el programa variará para lograr más eficacia. En primer lugar, te hago unas preguntas para informarme.
+          
+      </div>
+
+
+</div>
+
+
+<div class="container my-5 d-flex flex-column flex-lg-row">
+
+    <div class="d-flex align-items-center   justify-content-center    col p-2  mt-5">
+       
+        <i class="display-4 fas fa-file"></i>
+       
+      </div>
+  
+
+      <div class="col-lg-8 p-2 h5 espaciolineas mt-5">
+        <span class="font-weight-bold titulosobreblanco h2 my-2"> Diseño</span> 
+        <br><br>
+        Edito el programa de entrenamiento basándome en la literatura científica disponible con el objetivo de lograr los mejores resultados.
+        <br><br>
+        Explico el programa de forma clara debido a que es importante que se entienda fácilmente: Explico con detalle todos los términos y cómo tienes que entrenar.
+          
+      </div>
+
+
+</div>
+
+
+<div class="container my-5 d-flex flex-column flex-lg-row">
+
+    <div class="d-flex align-items-center   justify-content-center    col p-2  mt-5">
+       
+        <i class="display-4 fas fa-comments"></i>
+       
+      </div>
+  
+
+      <div class="col-lg-8 p-2 h5 espaciolineas mt-5">
+        <span class="font-weight-bold titulosobreblanco h2 my-2"> Respondo</span> 
+        <br><br>
+        Con el objetivo de asegurarme de que entienda el programa, lo ponga en práctica y sepa reaccionar en caso de un imprevisto (como por ejemplo que no disponga de todas las máquinas necesarias), responder las dudas que le surjan es una parte importante de este servicio.
+          
+      </div>
+
+
+</div>
+
+
+<div class="my-3">
+  <br>
+  </div>
+
+
+<div class="container my-5 d-flex flex-column flex-lg-row">
+
+  <div class="d-flex  col-lg-4    espaciolineas p-4 fondo-negro mb-5 mr-lg-5 ">
+     <span class="font-weight-bold titulosobreblanco  h5 text-white  ">
+    Este servicio no sería posible sin los avances de los mejores investigadores del mundo en esta materia.
+     </span>
+    </div>
+
+
+    <div class="col-lg-8  h5 border p-4">
+      <span class="titulosobreblanco font-weight-bold h5">
+       
+      
+      Recomiendo el trabajo de investigadores como: </span> 
+<br><br>
+Schoenfeld, Ogborn, Phillips, Krieger, Vigotsky, Contreras, Mavros, Helms, Loenneke, Yasuda, Lowery entre muchos otros, gracias a ellos podemos progresar mucho más en el ámbito de la salud y del rendimiento en el entrenamiento.
+      
+    </div>
+
+</div>
+
+<div class="my-3">
+  <br>
+  </div>
+
+  
+
+<div class="container">
+
+ <!-- Ng if para grande -->
+    <div class="mx-auto card text-center" *ngIf="grande" style="width: 25rem;">
+
+  <div class="card-header fondo-negro text-white">
+    <h5 class="card-title titulo m-4"> Programa de entrenamiento  </h5>
+  </div>
+  <div class="card-body">
+    <!-- <h5 class="card-title">Programa de entrenamiento</h5> -->
+    <span class="display-3">79</span>€
+    <hr>
+    <p class="card-text text-left h5 m-4">
+      &nbsp;<i class="fas fa-address-card"></i>&nbsp; &nbsp; Valoración <br><br>
+      &nbsp;<i class="fas fas fa-file"></i>&nbsp; &nbsp; &nbsp; Diseño del programa <br><br>
+      &nbsp;<i class="fas fa-comments"></i>&nbsp; &nbsp; Respuesta a posibles dudas
+    </p>
+    <hr>
+    <a href="#" class="btn btn-danger m-2">PLAZAS COMPLETAS</a>
+  </div>
+  <!-- <div class="card-footer text-muted">
+    2 days ago
+  </div> -->
+</div>
+
+ <!-- Ng if para pequeño -->
+
+ <div class="mx-auto card text-center" *ngIf="!grande" style="width: 18rem;">
+
+  <div class="card-header fondo-negro text-white">
+    <h5 class="card-title titulo m-4 espaciolineas"> Programa de entrenamiento  </h5>
+  </div>
+  <div class="card-body">
+    <!-- <h5 class="card-title">Programa de entrenamiento</h5> -->
+    <span class="display-3">79</span>€
+    <hr>
+    <p class="card-text text-left h5 m-4">
+      &nbsp;<i class="fas fa-address-card"></i>&nbsp; &nbsp; Valoración <br><br>
+      &nbsp;<i class="fas fas fa-file"></i>&nbsp; &nbsp; &nbsp; Diseño del programa <br><br>
+      &nbsp;<i class="fas fa-comments"></i>&nbsp; &nbsp; Respuesta a posibles dudas
+    </p>
+    <hr>
+    <a href="#" class="btn btn-danger m-2">PLAZAS COMPLETAS</a>
+  </div>
+  <!-- <div class="card-footer text-muted">
+    2 days ago
+  </div> -->
+</div>
+
+ </div> <!--cierro el container -->
+
+<!-- Preguntas y respuestas d-none-->
+<div class="container my-5 h5 w-lg-75">
+
+<button class="accordion container">¿Es efectivo tener un programa de entrenamiento bien diseñado?</button>
+<div class="panel container mt-3 ">
+  <p>Phd. Brad Schoenfeld es una de las personas que más ha contribuido a la investigación de los últimos años. En su metaanalisis del 2017 (enlace al metaanálisis) revisan 15 estudios y encuentran una relación lineal entre volumen y ganancias de músculo:
+<br><br>
+    Menos de 5 series por grupo muscular a la semana aumentaba un 5,4% la ganancia muscular y con 10 series se lograba un 9,8% de ganancia.
+    <br><br>   
+    Investigadores como Krieger aseguran que incluso con altos volúmenes, las ganancias de músculo son un 50% superiores cada vez que se logra duplicar el volumen periodizándolo para asimilarlo.
+    <br><br>
+    Para contextualizar: No existe suplemento legal que haya demostrado aumentar la ganancia de músculo ni tan siquiera en más de un 10%.
+    <br><br>
+    Sin embargo, hacer un volumen que no puedes asimilar da lugar a ganancias inferiores, sería un error no periodizarlo (enlace al estudio realizado en la Universidad de Sydney).
+    <br><br>
+    Periodizar y manipular el volumen ya ha demostrado poder duplicar e incluso triplicar las ganancias musculares de muchas personas. Añadir la manipulación de todas las demás variables (intensidad, frecuencia, tempo, RIR/RPE, selección de ejercicios, sistema de progresión, descargas, etc.) mejora el resultado.</p>
+</div>
+
+<button class="accordion container"> ¿Cómo hago los programas?</button>
+<div class="panel container my-3">
+  <p>Como todo aquel que tenga un servicio, intento ser productivo: guardo las plantillas y los esquemas principales de mis programas.
+    <br><br>
+    El objetivo es evitar gastar tiempo haciendo estructuras, emplearlo en adaptar el programa para que sea más eficaz y en revisar la evidencia científica, basándome en ocasiones incluso en metaanálisis o revisiones que puedan salir días anteriores. 
+    <br><br>
+    Mi reputación depende de los resultados que tienen mis clientes varios meses después y mi objetivo principal es siempre el mismo: eficacia, que los resultados que puedas tener sean los mejores y que cada cliente pueda hablar lo mejor posible de mí cuando pasan los meses.</p>
+</div>
+
+<button class="accordion container">¿Cómo suele ser mi trabajo?</button>
+<div class="panel container my-3">
+  <p>Si quiere saber cómo trabajo o consultar los estudios en los que me baso, puede ver mis publicaciones en mi cuenta de Instagram. Pienso que posiblemente sea una de las mejores maneras de tener una idea sobre mi forma de trabajar, las referencias que utilizo y lo que puede esperar de mí.</p>
+</div>
+
+<button class="accordion container">¿Por qué salen varias asesorías en el carrito?</button>
+<div class="panel container my-3">
+  <p>En el caso de que haya pinchado varias veces el enlace de compra, le saldrán varios programas acumulados en el carrito. Para solucionarlo simplemente cierre el navegador y vuelva a acceder.
+
+    Otra forma de solucionarlo es pinchar en «ver carrito» y poner el número de programas que quiera.</p>
+</div>
+<button class="accordion container">¿Requiere ordenador?</button>
+<div class="panel container my-3">
+  <p>Puede beneficiarse por completo de este servicio a través de su smartphone o tablet, sin necesidad de acceder a un ordenador. También es posible por ordenador en el caso de que lo prefiera.</p>
+</div>
+
+</div>
+
+
+<div class="my-3">
+  <br>
+  </div>
+
+
+
+
+

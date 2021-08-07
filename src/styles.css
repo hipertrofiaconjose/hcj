@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+}
+
+p { margin-bottom: 35px; }
+
+.titulo{
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.titulosobreblanco{
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.espaciolineas{
+    line-height: 1.6;
+}
+
+.enlace{
+    text-decoration: underline;
+	color: inherit;
+    
+}
+
+.enlace:hover{
+    text-decoration: underline;
+	color: inherit;
+}
+
+.fondo-negro{
+    background-color:#000000;
+}
