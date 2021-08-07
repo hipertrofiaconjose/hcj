@@ -1,0 +1,651 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>La importancia de ganar tejido muscular y conservarlo</title><style>
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.highlight-default {
+}
+.highlight-gray {
+	color: rgb(155,154,151);
+}
+.highlight-brown {
+	color: rgb(100,71,58);
+}
+.highlight-orange {
+	color: rgb(217,115,13);
+}
+.highlight-yellow {
+	color: rgb(223,171,1);
+}
+.highlight-teal {
+	color: rgb(15,123,108);
+}
+.highlight-blue {
+	color: rgb(11,110,153);
+}
+.highlight-purple {
+	color: rgb(105,64,165);
+}
+.highlight-pink {
+	color: rgb(173,26,114);
+}
+.highlight-red {
+	color: rgb(224,62,62);
+}
+.highlight-gray_background {
+	background: rgb(235,236,237);
+}
+.highlight-brown_background {
+	background: rgb(233,229,227);
+}
+.highlight-orange_background {
+	background: rgb(250,235,221);
+}
+.highlight-yellow_background {
+	background: rgb(251,243,219);
+}
+.highlight-teal_background {
+	background: rgb(221,237,234);
+}
+.highlight-blue_background {
+	background: rgb(221,235,241);
+}
+.highlight-purple_background {
+	background: rgb(234,228,242);
+}
+.highlight-pink_background {
+	background: rgb(244,223,235);
+}
+.highlight-red_background {
+	background: rgb(251,228,228);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(55, 53, 47, 0.6);
+	fill: rgba(55, 53, 47, 0.6);
+}
+.block-color-brown {
+	color: rgb(100,71,58);
+	fill: rgb(100,71,58);
+}
+.block-color-orange {
+	color: rgb(217,115,13);
+	fill: rgb(217,115,13);
+}
+.block-color-yellow {
+	color: rgb(223,171,1);
+	fill: rgb(223,171,1);
+}
+.block-color-teal {
+	color: rgb(15,123,108);
+	fill: rgb(15,123,108);
+}
+.block-color-blue {
+	color: rgb(11,110,153);
+	fill: rgb(11,110,153);
+}
+.block-color-purple {
+	color: rgb(105,64,165);
+	fill: rgb(105,64,165);
+}
+.block-color-pink {
+	color: rgb(173,26,114);
+	fill: rgb(173,26,114);
+}
+.block-color-red {
+	color: rgb(224,62,62);
+	fill: rgb(224,62,62);
+}
+.block-color-gray_background {
+	background: rgb(235,236,237);
+}
+.block-color-brown_background {
+	background: rgb(233,229,227);
+}
+.block-color-orange_background {
+	background: rgb(250,235,221);
+}
+.block-color-yellow_background {
+	background: rgb(251,243,219);
+}
+.block-color-teal_background {
+	background: rgb(221,237,234);
+}
+.block-color-blue_background {
+	background: rgb(221,235,241);
+}
+.block-color-purple_background {
+	background: rgb(234,228,242);
+}
+.block-color-pink_background {
+	background: rgb(244,223,235);
+}
+.block-color-red_background {
+	background: rgb(251,228,228);
+}
+.select-value-color-default { background-color: rgba(206,205,202,0.5); }
+.select-value-color-gray { background-color: rgba(155,154,151, 0.4); }
+.select-value-color-brown { background-color: rgba(140,46,0,0.2); }
+.select-value-color-orange { background-color: rgba(245,93,0,0.2); }
+.select-value-color-yellow { background-color: rgba(233,168,0,0.2); }
+.select-value-color-green { background-color: rgba(0,135,107,0.2); }
+.select-value-color-blue { background-color: rgba(0,120,223,0.2); }
+.select-value-color-purple { background-color: rgba(103,36,222,0.2); }
+.select-value-color-pink { background-color: rgba(221,0,129,0.2); }
+.select-value-color-red { background-color: rgba(255,0,26,0.2); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="b125485b-f308-4888-b302-e08b27c505c2" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">🏉</span></div><h1 class="page-title">La importancia de ganar tejido muscular y conservarlo</h1></header><div class="page-body"><p id="7b11937a-fbbc-4f8a-baa2-c325a0a643b5" class="">
+</p><h1 id="296c2e2d-1c56-4ab3-8347-19ac794b6ef8" class=""><strong>1. ¿Conoces tus músculos?</strong></h1><p id="0f44ee48-5b98-4c9e-933b-b018eb99f15d" class=""><strong>En la industria del fitness se suele prestar mucha más atención a quemar grasa o estar delgados que </strong><strong>a tener un mínimo de masa muscular.</strong></p><p id="94330821-7d44-4ef1-867a-65eb9d7b32f0" class=""><strong>Cuando pensamos en músculos, normalmente lo primero que nos viene a la cabeza es que nos sirven para movernos y tener un mínimo de fuerza. Como un tipo de arquitectura que tiene nuestro cuerpo, pero no solamente sirven para moverte o mantener la postura.</strong></p><p id="1a2243df-55e3-4423-a469-817f5821ac61" class="">IMG</p><p id="335b5a74-1947-4f0a-a514-600eaaa8e7cf" class="">
+</p><p id="5988ff0d-74d8-452d-8efc-2bfcdf31b806" class="">
+</p><p id="fe2ba928-83fe-4f07-8674-e814393e8857" class=""><strong>Tus músculos forman la infraestructura casi responsable de tu </strong><strong>regulación metabólica</strong><strong> (</strong><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4657151/"><strong>go</strong></a><strong>).</strong></p><blockquote id="10c667ee-bf72-4e43-9288-37f9ca6f1d3a" class="">Metabolismo: procesos químicos y físicos que ocurren en las células de tu cuerpo.</blockquote><p id="b0cda7f3-9ac2-4ec7-80be-ee658ee7cfaf" class=""><strong>De hecho, es responsable del metabolismo de la glucosa y de la oxidación de los lípidos.</strong></p><p id="90d51a3f-fad7-4251-a5be-4b2d4dc5b95e" class=""><strong>Cómo usas la energía</strong><strong> que tienes o tu capacidad para </strong><strong>quemar grasa</strong><strong> y lograr un bajo porcentaje de grasa corporal depende de la cantidad de tejido muscular que tengas.</strong></p><p id="fc778b54-cc38-4434-b7d7-7e707bef2bd0" class="">
+</p><p id="7a298c45-6065-423f-9e38-0c9e7af89234" class="">img</p><p id="9d50d2f5-a762-4659-a96a-aad81da7a017" class="">
+</p><p id="2ed4f27e-8841-4749-a4c5-9e4621b82526" class="">
+</p><p id="9aac5996-c578-4f34-97ec-d3f5c93b09bb" class=""><strong>El músculo es </strong><strong>el órgano más grande de tu cuerpo</strong><strong> (más que la piel), de hecho es el órgano más grande que tienes para </strong><strong>oxidar tu grasa corporal </strong><strong>(</strong><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3581612/"><strong>go</strong></a><strong>).</strong></p><p id="5dcad25e-ab37-4e9b-9d53-9d74aceddec5" class="">
+</p><p id="d566fb49-7324-41cd-bd47-ce5aad475252" class=""><strong>Suele formar parte del 30-40% del peso corporal proporcionándote protección ante </strong><strong>traumatismos, locomoción, ventilación, </strong><strong>representando un “lavadero” en el </strong><strong>metabolismo de la glucosa </strong><strong>y un depósito de aminoácidos de otros tejidos como tu cerebro o tus células sanguíneas.</strong></p><p id="03f3feda-6a84-4106-812a-8ed66776834a" class="">
+</p><p id="29bb4f45-8332-49f5-ab86-11276e694800" class=""><strong>Además es </strong><strong>antiinflamatorio.</strong><strong> Esto significa que </strong><strong>disminuye el riesgo a tener gran variedad de enfermedades</strong><strong> e incluso puede tratarlas.</strong></p><p id="acc1361d-c509-4f2d-a7ef-aa197e7956a4" class="">
+</p><p id="ffe4bf6e-2ec7-42b9-bb1b-b7ca81608903" class=""><strong>Es muy sonado el tema de la diabetes y enfermedades ligadas a la inflamación cuando se está demostrando que es fácil </strong><strong>mitigar enfermedades</strong><strong> como la diabetes tipo II exponiéndote a programa de entrenamiento  y nutrición.</strong></p><p id="a2bc9787-09c0-4511-8361-d83339520301" class="">
+</p><p id="8066c4a7-b89c-48ec-a375-0a82eda07c42" class=""><strong>El músculo es un </strong><strong>órgano endocrino</strong><strong> (</strong><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4657151/"><strong>go</strong></a><strong>).</strong></p><p id="07c03979-04a9-45bb-a2e2-8bf9d37e3598" class="">
+</p><blockquote id="b5236ea1-c2b8-4d73-aecb-a60f773f57ec" class="">Endocrino: Que produce hormonas o secreciones que van a parar directamente a la sangre.</blockquote><p id="9d739539-2fee-43e3-9f46-aa05323d27ec" class="">
+</p><p id="2a46ba5f-75da-44be-9291-5cb2fe1c5c47" class="">IMG</p><p id="7b564450-a3a9-41c1-b05d-070973693287" class="">
+</p><p id="1d27e3ff-ae37-4469-a334-5940fae34b8f" class=""><strong>Tu sistema endocrino sintetiza y libera hormonas, las cuales regulan funciones de tu cuerpo. Hay formas más o menos específicas de entrenar para mantener este tejido sano.</strong></p><p id="fb306495-f02d-47ca-8b32-9f1ccc2cd655" class="">
+</p><p id="283ce0fb-c1a2-45e8-8942-cf0a498fa2d1" class=""><strong>Tus músculos emiten </strong><strong>miocinas</strong><strong>, estas regulan tu </strong><strong>capacidad mental, función inmune</strong><strong>, mantiene los </strong><strong>niveles adecuados de glucosa</strong><strong> o incluso la </strong><strong>salud de tu piel</strong><strong>.</strong></p><p id="96fcaee9-3891-45ce-b289-d0cfe5cfebbc" class="">
+</p><p id="85af5345-f2b7-4998-ba2d-330007baf0cb" class=""><strong>Además están </strong><strong>muy conectados </strong><strong>a tus huesos, me explico, no solo están conectados por sus superficies, también cuando hablamos de </strong><strong>procesos químicos</strong><strong> que ocurren en tu cuerpo.</strong></p><p id="6fc6a67e-9007-4c1a-bef4-b304d493d662" class="">
+</p><p id="1a59667f-1c0c-403f-a00a-d4e5e6e2c242" class="">Tenemos metaanalisis como este (go) que recopila hasta 44 estudios involucrando hasta 20226 personas de ambos sexos y de edades desde 18 hasta 92 años.</p><p id="46d58bb8-6f35-4472-a8f0-29c649ba0275" class="">
+</p><p id="5ef41a28-1c4b-4f81-a77a-045bb8f37454" class="">IMG</p><p id="704eff14-4cd9-43d1-922d-90ba4a9b040f" class="">
+</p><p id="ad6c3952-c639-4356-a9b7-5800c028994a" class="">
+</p><p id="56149a57-9dac-411f-84df-510023bfbd9b" class=""><strong>Examinan la relación entre masa muscular libre de grasa, grasa y la densidad mineral ósea demostrando que el hecho de </strong><strong>tener masa muscular es lo daba los mejores resultados en cuanto a densidad ósea. </strong><strong>Esto a edades avanzadas supone prevenir la osteoporosis.</strong></p><p id="38aa027c-bed4-41f0-afea-99dc00af5bf4" class="">
+</p><p id="5c584175-e3cd-4bf3-bda4-037bd6417c83" class=""><strong>Aquí un estudio (</strong><a href="https://www.ncbi.nlm.nih.gov/pubmed/28078821"><strong>go</strong></a><strong>) donde comprobaban que el hecho de tener poco tejido muscular impactaba en la </strong><strong>sensación de hambre </strong><strong>dando lugar a comer de más.</strong></p><p id="9ba6e3be-f96b-40c3-9aab-7b797912592a" class="">
+</p><p id="30b9cc44-60f7-44fb-aeb4-23476c350cb4" class=""><strong>El entrenamiento con pesas afecta a la </strong><strong>biogénesis mitocondrial</strong><strong> de tu músculo esquelético y habituarte a este puede mejorar el contenido de tus mitocondrias y sus funciones (</strong><a href="https://www.ncbi.nlm.nih.gov/pubmed/28966596"><strong>go</strong></a><strong>).</strong></p><p id="2f2001de-d68a-429d-ab55-e2165bdd5295" class="">
+</p><p id="69733e9a-05d0-4be1-b5d3-b380490118ed" class="">img</p><p id="9dfa7bf7-d2e8-474c-8786-14d833d210ca" class="">
+</p><p id="c69f4440-ebd3-474f-83f8-46451abb1c1a" class="">
+</p></div></article></body></html>
